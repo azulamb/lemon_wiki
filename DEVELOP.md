@@ -33,11 +33,17 @@ Happy hacking! 🦕
 `deno.json` に `fmt` のオプション追加と `fmt` でコードを直す。
 
 ```json
-  "fmt": {
-    "singleQuote": true
-  },
+"fmt": {
+  "singleQuote": true
+},
 ```
 
 ```sh
 deno fmt
 ```
+
+## メモ
+
+役立ちそうなの
+
+- https://fresh.deno.dev/docs/examples/rendering-markdown
