@@ -1,0 +1,19 @@
+{
+  "bundle": [],
+  "components": [
+    {
+      "file": "./sample-header.ts",
+      "list": {
+        "name": "sample-header",
+        "type": "SampleHeader"
+      }
+    },
+    {
+      "file": "./sample-component.ts",
+      "list": {
+        "name": "sample-component",
+        "type": "SampleComponent"
+      }
+    }
+  ]
+}
