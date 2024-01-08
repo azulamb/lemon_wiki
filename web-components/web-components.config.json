@@ -1,18 +1,18 @@
 {
-  "bundle": [],
+  "bundle": [
+    {
+      "entrypoint": "common",
+      "components": [
+        "side-menu"
+      ]
+    }
+  ],
   "components": [
     {
-      "file": "./sample-header.ts",
+      "file": "./common/side-menu.ts",
       "list": {
-        "name": "sample-header",
-        "type": "SampleHeader"
-      }
-    },
-    {
-      "file": "./sample-component.ts",
-      "list": {
-        "name": "sample-component",
-        "type": "SampleComponent"
+        "name": "side-menu",
+        "type": "SideMenu"
       }
     }
   ]
